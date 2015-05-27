@@ -1,5 +1,5 @@
 # Markbox
-
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 Super simple Heroku-ready, Markdown- and Dropbox-based customizable blog engine.
 Like [this](http://calepin.co/), but not as-a-Service.
 Based on [CherryPy](http://www.cherrypy.org/).
