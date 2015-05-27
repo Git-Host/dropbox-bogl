@@ -1,0 +1,23 @@
+{
+  "name": "Dropbox-Bogl",
+  "logo": "https://s3-ap-southeast-1.amazonaws.com/web-tyrant/tyrant.ico",
+  "repository": "https://github.com/Git-Host/dropbox-bogl",
+  "website": "https://www.dropbox.com/developers/webhooks/tutorial",
+  "keywords": ["dropbox", "python", "flask"],
+  "success_url": "/welcome",
+  "addons": [
+    "redistogo"
+  ],
+  "env": {
+    "APP_KEY": {
+      "description": "Your Dropbox app key (found at dropbox.com/developers/apps)"
+    },
+    "APP_SECRET": {
+      "description": "Your Dropbox app secret (found at dropbox.com/developers/apps)"
+    },
+    "FLASK_SECRET_KEY": {
+      "description": "A secret key for cookie signing",
+      "generator": "secret"
+    }
+  }
+}
